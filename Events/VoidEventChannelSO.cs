@@ -7,6 +7,6 @@ public class VoidEventChannelSO : ScriptableObject
     public UnityAction OnEventRaised;
  
     public void RaiseEvent(){
-        OnEventRaised?.Invoke();
+        OnEventRaised?.Invoke(); 
     }
 }
